@@ -1,0 +1,92 @@
+/** @format */
+
+@import "variables.css";
+
+.contact > * {
+  margin: auto;
+}
+
+.contact-text {
+  border-top: 2px solid white;
+  background-color: var(--color-light-beige);
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-text div {
+  max-width: 400px;
+  margin: auto;
+}
+.contact-text p {
+  padding: 10px;
+}
+
+.contact-text h1 {
+  font-weight: 600;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  margin: 50px;
+}
+
+.contact-social {
+  margin-bottom: 50px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social i {
+  font-size: 1.8em;
+}
+
+.social h2 {
+  font-size: 1.1em;
+}
+
+.social > * {
+  padding: 5px;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  padding: 7px 0px;
+  margin: 5px 0px;
+}
+
+#contact-form {
+  max-width: 400px;
+  padding: 30px 40px 10px 40px;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  margin-bottom: 6px;
+}
+
+.success {
+  display: none;
+  color: green;
+  text-align: center;
+  margin: 20px 40px;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: #c0ec83;
+}
+
+.success::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1d8";
+  margin-right: 10px;
+  color: green;
+}
